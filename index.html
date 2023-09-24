@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/app.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <div
+      class="container d-flex justify-content-center align-items-center min-vh-100"
+    >
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="card p-4" style="width: 21rem">
+            <div class="img mb-4 position-relative ">
+              <img
+                src="./images/image-equilibrium.jpg"
+                alt=""
+                class="main-image card-img-top card-img-bottom"
+              />
+              <div
+                class="view-img w-100 h-100 top-50 start-50 bg-info position-absolute translate-middle rounded-2 "
+              >
+                <img
+                  src="./images/icon-view.svg"
+                  alt=""
+                  class="position-absolute top-50 start-50 translate-middle"
+                />
+              </div>
+            </div>
+
+            <div class="card-body p-0">
+              <h5 class="card-title mb-4 text-white  fw-bold ">
+                Equilibrium #3429
+              </h5>
+              <p class="card-text mb-4 text-primary">
+                Our Equilibrium collection promotes balance and calm.
+              </p>
+              <div class="price-day d-flex justify-content-between mb-4">
+                <div class="price text-info fw-bold">
+                  <img src="./images/icon-ethereum.svg" alt="" class="me-1" />
+                  0.041 ETH
+                </div>
+
+                <div class="day text-primary">
+                  <img src="./images/icon-clock.svg" alt="" class="me-1" />
+                  3 days left
+                </div>
+              </div>
+              <hr class="line" />
+              <div class="footer d-flex align-items-center px-3">
+                <img src="./images/image-avatar.png" alt="" class="avatar" />
+                <div class="text-primary small ms-3">
+                  Creation of
+                  <span class="fw-bold text-white creator">Jules Wyvern</span>
+                </div>
+              </div>
+            </div>
+
+        
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

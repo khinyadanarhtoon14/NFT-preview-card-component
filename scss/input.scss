@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+$font-family-sans-serif: "Outfit", sans-serif;
+$font-size-base: 1.125rem;
+$primary: hsl(215, 51%, 70%);
+$info: hsl(178, 100%, 50%);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+.card {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+}
+
+.line {
+  border: 1px solid hsl(215, 32%, 27%);
+}
+
+.price-day {
+  font-size: 15px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid hsl(0, 0%, 100%);
+}
+
+h5,
+span,
+.view-img {
+   
+    cursor: pointer;
+}
+
+h5:hover,span:hover{
+    color: hsl(178, 100%, 50%) !important;
+    
+}
+
+
+.view-img {
+  opacity: 0;
+}
+.view-img:hover {
+  opacity: 0.5;
+}
+
+
