@@ -11946,7 +11946,8 @@ h5:hover, .h5:hover, span:hover {
 }
 
 .view-img:hover {
-  opacity: 0.5;
+  opacity: 1;
+  background-color: rgba(0, 255, 255, 0.5019607843);
 }
 
 /*# sourceMappingURL=app.css.map */
